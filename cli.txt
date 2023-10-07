@@ -17,12 +17,13 @@ vtxtable powervalues 25 100 200 350
 vtxtable powerlabels 25 100 200 350
 
 # master
-set osd_rssi_dbm_pos = 2069
 set osd_tim_1_pos = 2048
 set osd_gps_speed_pos = 2055
-set osd_gps_sats_pos = 2065
 set osd_home_dir_pos = 2060
 set osd_home_dist_pos = 2060
+set osd_gps_sats_pos = 2065
+set osd_rssi_dbm_pos = 2069
+set osd_avg_cell_voltage_pos = 2072
 set osd_warnings_pos = 2442
 set vtx_band = 5
 set vtx_channel = 8
