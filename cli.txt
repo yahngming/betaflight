@@ -1,3 +1,7 @@
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
 # aux
 aux 0 0 0 1700 2100 0 0
 aux 1 1 3 1300 1700 0 0
@@ -17,6 +21,10 @@ vtxtable powervalues 25 100 200 350
 vtxtable powerlabels 25 100 200 350
 
 # master
+set min_check = 1010
+set max_check = 1990
+set small_angle = 180
+set report_cell_voltage = ON
 set osd_tim_1_pos = 2048
 set osd_gps_speed_pos = 2055
 set osd_home_dir_pos = 2060
