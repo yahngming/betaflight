@@ -2,7 +2,7 @@
 
 ## Pre check list
 - Blackbox logging
-- Bidirectional dshot
+- Bidirectional DShot
 - Radio preset
 - OSD
 
