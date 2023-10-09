@@ -26,6 +26,8 @@
 
 ## PD balance and master multiplier
 - I term = 0
+- Angle mode
+- Fast roll and pitch
 - PI term = 0.3, 0.4, 0.5, 0.75, 1.0, 1.25, 1.5
 - Master multiplier = 1.0, 1.25, 1.5, 1.75, 2.0
 - Choose best values for fast responses
@@ -33,6 +35,8 @@
 
 ## Feedforward
 - FF = 0, 1.0, 1.5
+- Acro mode
+- Fast roll and pitch
 - Choose best value for lowest delay
 
 ## Dynamic idle
