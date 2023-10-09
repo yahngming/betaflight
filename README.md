@@ -20,16 +20,16 @@
 - Angle mode
 - Throttle pumps from 0-100
 - Cutoff frequencies
-  | Prop size | D term filter cuttoffs |
-  | --------- | ---------------------- |
-  | 1.6"      | 100-125Hz              |
-  | 2"        | 100-125Hz              |
-  | 3"        | 100-125Hz              |
-  | 4"        | 90-110Hz               |
-  | 5"        | 80-110Hz               |
-  | 6"        | 80-110Hz               |
-  | 7"        | 75-100Hz               |
-  | 8"        | 75-100Hz               |
+  | Prop size | D term filter cuttoff |
+  | --------- | --------------------- |
+  | 1.6"      | 100-125Hz             |
+  | 2"        | 100-125Hz             |
+  | 3"        | 100-125Hz             |
+  | 4"        | 90-110Hz              |
+  | 5"        | 80-110Hz              |
+  | 6"        | 80-110Hz              |
+  | 7"        | 75-100Hz              |
+  | 8"        | 75-100Hz              |
 
 ### PD balance and master multiplier
 - I term = 0
