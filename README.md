@@ -1,25 +1,25 @@
 # Presets
 
-* [common.txt](common.txt) - Common settings for all quads
-* [tinywhoop.txt](tinywhoop.txt) - 75mm tinywhoop full dump
-* [toothpick.txt](toothpick.txt) - 3inch toothpick full dump
-* [freestyle.txt](freesytle.txt) - 5inch freestyle full dump
+- [common.txt](common.txt) - Common settings for all quads
+- [tinywhoop.txt](tinywhoop.txt) - 75mm tinywhoop full dump
+- [toothpick.txt](toothpick.txt) - 3inch toothpick full dump
+- [freestyle.txt](freesytle.txt) - 5inch freestyle full dump
 
 # Tuning
 
-* Pre check list
-1. Blackbox logging
-1. Bidirectional DShot
-1. Radio preset
-1. OSD
+### Pre check list
+- Blackbox logging
+- Bidirectional DShot
+- Radio preset
+- OSD
 
-* Filters
-1. Disable gyro lowpass filters
-1. Disable d term lowpass filter 2
-1. BIQUAD d term low pass filter 1
-1. Angle mode
-1. Throttle pumps from 0-100
-1. Cutoff frequencies
+### Filters
+- Disable gyro lowpass filters
+- Disable d term lowpass filter 2
+- BIQUAD d term low pass filter 1
+- Angle mode
+- Throttle pumps from 0-100
+- Cutoff frequencies
   | Prop size | D term filter cuttoffs |
   | --------- | ---------------------- |
   | 1.6"      | 100-125Hz              |
@@ -31,24 +31,24 @@
   | 7"        | 75-100Hz               |
   | 8"        | 75-100Hz               |
 
-* PD balance and master multiplier
-1. I term = 0
-1. Angle mode
-1. Fast roll and pitch
-1. PI term = 0.3, 0.4, 0.5, 0.75, 1.0, 1.25, 1.5
-1. Master multiplier = 1.0, 1.25, 1.5, 1.75, 2.0
-1. Choose best values for fast responses
-1. I term = 1
+### PD balance and master multiplier
+- I term = 0
+- Angle mode
+- Fast roll and pitch
+- PI term = 0.3, 0.4, 0.5, 0.75, 1.0, 1.25, 1.5
+- Master multiplier = 1.0, 1.25, 1.5, 1.75, 2.0
+- Choose best values for fast responses
+- I term = 1
 
-* Feedforward
-1. FF = 0, 1.0, 1.5
-1. Acro mode
-1. Fast roll and pitch
-1. Choose best value for lowest delay
+### Feedforward
+- FF = 0, 1.0, 1.5
+- Acro mode
+- Fast roll and pitch
+- Choose best value for lowest delay
 
-* Dynamic idle
-1. Idle RPM = 15000 / prop diameter
-1. Idle setting = idle RPM / 100
+### Dynamic idle
+- Idle RPM = 15000 / prop diameter
+- Idle setting = idle RPM / 100
   | Prop size | Idle RPM | Idle setting |
   | --------- | -------- | ------------ |
   | 1.6"      | 9375     | 94           |
@@ -61,6 +61,6 @@
   | 7"        | 2150     | 22           |
   | 8"        | 1875     | 19           |
 
-* RC smoothing
-1. Auto cutoffs
-1. Increase auto factor
+### RC smoothing
+- Auto cutoffs
+- Increase auto factor
