@@ -1,4 +1,4 @@
-# Betaflight configurations
+# Presets
 
 * [common.txt](common.txt) - Common settings for all quads
 * [tinywhoop.txt](tinywhoop.txt) - 75mm tinywhoop full dump
