@@ -10,6 +10,8 @@
 - Disable gyro lowpass filters
 - Disable d term lowpass filter 2
 - BIQUAD d term low pass filter 1
+- Angle mode
+- Throttle pumps from 0-100
 - Cutoff frequencies
   | Prop size | D term filter cuttoffs |
   | --------- | ---------------------- |
