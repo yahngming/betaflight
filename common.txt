@@ -25,6 +25,7 @@ set min_check = 1010
 set max_check = 1990
 set small_angle = 180
 set report_cell_voltage = ON
+set vcd_video_system = PAL
 set osd_warnings_pos = 2442
 set osd_mah_drawn_pos = 2466
 set osd_avg_cell_voltage_pos = 2497
