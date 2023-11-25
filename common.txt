@@ -1,10 +1,66 @@
-# aux
+# configuration
+set small_angle = 180
+beacon RX_LOST
+beacon RX_SET
+
+# power
+set report_cell_voltage = ON
+
+# pid
+set feedforward_averaging = 2_POINT
+set dyn_idle_min_rpm = 50
+set simplified_dterm_filter = OFF
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 0
+set gyro_lpf1_dyn_min_hz = 0
+set dterm_lpf1_dyn_min_hz = 100
+set dterm_lpf1_dyn_max_hz = 125
+set dterm_lpf1_type = BIQUAD
+set dterm_lpf1_static_hz = 0
+set dterm_lpf2_static_hz = 0
+
+# receiver
+set serialrx_provider = CRSF
+set min_check = 1010
+set max_check = 1990
+set rc_smoothing_auto_factor = 50
+
+# modes
 aux 0 0 0 1700 2100 0 0
 aux 1 1 1 1300 1700 0 0
 aux 2 13 3 1700 2100 0 0
 aux 3 35 1 1700 2100 0 0
 
-# vtxtable
+# motors
+set motor_pwm_protocol = DSHOT300
+set dshot_bidir = ON
+set motor_poles = 12
+
+# osd
+set vcd_video_system = PAL
+set osd_tim1 = 3
+set osd_warn_batt_not_full = OFF
+set osd_stat_battery = ON
+set osd_stat_bb_no = OFF
+set osd_stat_bbox = OFF
+set osd_stat_min_rssi_dbm = ON
+set osd_stat_min_rssi = OFF
+set osd_stat_max_spd = OFF
+set osd_altitude_pos = 18680
+set osd_avg_cell_voltage_pos = 2497
+set osd_mah_drawn_pos = 2466
+set osd_gps_sats_pos = 2105
+set osd_gps_speed_pos = 2273
+set osd_home_dir_pos = 2093
+set osd_home_dist_pos = 2093
+set osd_rssi_dbm_pos = 2487
+set osd_tim_1_pos = 2519
+set osd_warnings_pos = 2442
+
+# vtx
+set vtx_band = 5
+set vtx_channel = 8
+set vtx_power = 1
 vtxtable bands 5
 vtxtable channels 8
 vtxtable band 1 BOSCAM_A A CUSTOM  5865 5845 5825 5805 5785 5765 5745 5725
@@ -13,40 +69,7 @@ vtxtable band 3 BOSCAM_E E CUSTOM  5705 5685 5665 5645 5885 5905 5925 5945
 vtxtable band 4 FATSHARK F CUSTOM  5740 5760 5780 5800 5820 5840 5860 5880
 vtxtable band 5 RACEBAND R CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
 vtxtable powerlevels 4
-vtxtable powerlabels 25 100 200 350
-# TBS SmartAudio 2.0
 vtxtable powervalues 0 1 2 3
-# TBS SmartAudio 2.1
 vtxtable powervalues 14 20 23 26
-# IRC Tramp
 vtxtable powervalues 25 100 200 350
-
-# master
-set report_cell_voltage = ON
-
-# tune
-set gyro_lpf1_static_hz = 0
-set gyro_lpf2_static_hz = 0
-set gyro_lpf1_dyn_min_hz = 0
-set dterm_lpf1_static_hz = 0
-set dterm_lpf2_static_hz = 0
-set dterm_lpf1_dyn_min_hz = 100
-set dterm_lpf1_dyn_max_hz = 125
-set dterm_lpf1_type = BIQUAD
-set simplified_dterm_filter = OFF
-set feedforward_averaging = 2_POINT
-set dyn_idle_min_rpm = 50
-set rc_smoothing_auto_factor = 50
-
-# osd
-set osd_tim1 = 3
-set osd_warnings_pos = 2442
-set osd_avg_cell_voltage_pos = 2497
-set osd_tim_1_pos = 2519
-set osd_mah_drawn_pos = 2466
-set osd_rssi_dbm_pos = 2487
-set osd_gps_sats_pos = 2105
-set osd_home_dir_pos = 2093
-set osd_home_dist_pos = 2093
-set osd_gps_speed_pos = 2273
-set osd_altitude_pos = 18680
+vtxtable powerlabels 25 100 200 350
