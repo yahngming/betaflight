@@ -23,6 +23,22 @@ vtxtable powervalues 25 100 200 350
 
 # master
 set report_cell_voltage = ON
+
+# tune
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 0
+set gyro_lpf1_dyn_min_hz = 0
+set dterm_lpf1_static_hz = 0
+set dterm_lpf2_static_hz = 0
+set dterm_lpf1_dyn_min_hz = 100
+set dterm_lpf1_dyn_max_hz = 125
+set dterm_lpf1_type = BIQUAD
+set simplified_dterm_filter = OFF
+set feedforward_averaging = 2_POINT
+set dyn_idle_min_rpm = 50
+set rc_smoothing_auto_factor = 50
+
+# osd
 set osd_tim1 = 3
 set osd_warnings_pos = 2442
 set osd_avg_cell_voltage_pos = 2497
