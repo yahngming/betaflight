@@ -49,6 +49,7 @@ set osd_stat_max_spd = OFF
 set osd_altitude_pos = 18680
 set osd_avg_cell_voltage_pos = 2497
 set osd_mah_drawn_pos = 2466
+set osd_flight_dist_pos = 2081
 set osd_gps_sats_pos = 2105
 set osd_gps_speed_pos = 2273
 set osd_home_dir_pos = 2093
