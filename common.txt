@@ -32,6 +32,7 @@ aux 2 13 3 1700 2100 0 0
 aux 3 35 1 1700 2100 0 0
 
 # motors
+set yaw_motors_reversed = ON
 set motor_pwm_protocol = DSHOT300
 set dshot_bidir = ON
 set motor_poles = 12
