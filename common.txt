@@ -39,13 +39,6 @@ set motor_poles = 12
 # osd
 set vcd_video_system = PAL
 set osd_tim1 = 3
-set osd_warn_batt_not_full = OFF
-set osd_stat_battery = ON
-set osd_stat_bb_no = OFF
-set osd_stat_bbox = OFF
-set osd_stat_min_rssi_dbm = ON
-set osd_stat_min_rssi = OFF
-set osd_stat_max_spd = OFF
 set osd_altitude_pos = 18680
 set osd_avg_cell_voltage_pos = 2497
 set osd_mah_drawn_pos = 2466
