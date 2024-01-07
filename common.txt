@@ -48,11 +48,11 @@ set osd_gps_sats_pos = 2105
 set osd_gps_speed_pos = 2273
 set osd_home_dir_pos = 2093
 set osd_home_dist_pos = 2093
-set osd_rssi_dbm_pos = 2487
+set osd_link_quality_pos = 2487
 set osd_tim_1_pos = 2519
 set osd_warnings_pos = 2442
 set osd_warn_bitmask = 8189
-set osd_stat_bitmask = 8390308
+set osd_stat_bitmask = 132772
 
 # vtx
 set vtx_band = 5
