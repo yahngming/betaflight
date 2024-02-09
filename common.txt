@@ -10,9 +10,17 @@ set report_cell_voltage = ON
 set feedforward_averaging = 2_POINT
 set dyn_idle_min_rpm = 50
 set simplified_dterm_filter = OFF
+
+# gyro 270
+set dterm_lpf1_dyn_min_hz = 0
+set dterm_lpf1_static_hz = 0
+set dterm_lpf2_type = PT2
+set dterm_lpf2_static_hz = 135
+
+# gyro 6000
+set gyro_lpf1_dyn_min_hz = 0
 set gyro_lpf1_static_hz = 0
 set gyro_lpf2_static_hz = 0
-set gyro_lpf1_dyn_min_hz = 0
 set dterm_lpf1_dyn_min_hz = 100
 set dterm_lpf1_dyn_max_hz = 125
 set dterm_lpf1_type = BIQUAD
