@@ -1,11 +1,3 @@
-# configuration
-set small_angle = 180
-beacon RX_LOST
-beacon RX_SET
-
-# power
-set report_cell_voltage = ON
-
 # pid
 set feedforward_averaging = 2_POINT
 set dyn_idle_min_rpm = 50
@@ -25,23 +17,11 @@ set dterm_lpf1_type = BIQUAD
 set dterm_lpf1_static_hz = 0
 set dterm_lpf2_static_hz = 0
 
-# receiver
-set serialrx_provider = CRSF
-set min_check = 1010
-set max_check = 1990
-set rc_smoothing_auto_factor = 50
-
 # modes
 aux 0 0 0 1700 2100 0 0
 aux 1 1 1 1300 1700 0 0
 aux 2 13 3 1700 2100 0 0
 aux 3 35 1 1700 2100 0 0
-
-# motors
-set yaw_motors_reversed = ON
-set motor_pwm_protocol = DSHOT300
-set dshot_bidir = ON
-set motor_poles = 12
 
 # osd
 set vcd_video_system = PAL
